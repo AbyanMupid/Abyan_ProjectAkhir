@@ -19,8 +19,8 @@ Route::get('/', function () {
 Route::get('basic_elements', function () {
     return view('basic_elements');
 });
-Route::get('basic_table', function () {
-    return view('basic_table');
+Route::get('basic-table', function () {
+    return view('basic-table');
 });
 Route::get('chartjs', function () {
     return view('chartjs');
